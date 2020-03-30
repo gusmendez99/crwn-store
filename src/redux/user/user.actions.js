@@ -22,6 +22,14 @@ export const emailSignInStart = emailAndPassword => ({
   payload: emailAndPassword
 });
 
+// Check User session
+export const checkUserSession = () => ({
+  type: UserActionTypes.CHECK_USER_SESSION
+})
+
+
+//Sign Out
+
 export const signOutStart = () => ({
   type: UserActionTypes.SIGN_OUT_START
 });
