@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "engines": {
     "node": "10.19.0",
-    "npm": "6.13.14"
+    "npm": "6.13.4"
   },
   "scripts": {
     "client": "cd client && yarn start",
