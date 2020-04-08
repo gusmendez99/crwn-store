@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { Link } from "react-router-dom";
+import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const HeaderContainer = styled.div`
   height: 70px;
@@ -10,9 +10,8 @@ export const HeaderContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     height: 60px;
-    margin-bottom: 20px;
     padding: 10px;
-
+    margin-bottom: 20px;
   }
 `;
 
@@ -22,9 +21,8 @@ export const LogoContainer = styled(Link)`
   padding: 25px;
 
   @media screen and (max-width: 800px) {
-    padding: 0px;
     width: 50px;
-
+    padding: 0;
   }
 `;
 
@@ -37,7 +35,6 @@ export const OptionsContainer = styled.div`
 
   @media screen and (max-width: 800px) {
     width: 80%;
-
   }
 `;
 
