@@ -1,5 +1,5 @@
 # CRWN-Store
-Basic e-commerce app made with React, Redux, Sagas, Firebase &amp; Stripe (payments), from Udemy course https://www.udemy.com/course/complete-react-developer-zero-to-mastery
+Basic e-commerce PWA made with React, Redux, Sagas, Firebase &amp; Stripe (payments), from Udemy course https://www.udemy.com/course/complete-react-developer-zero-to-mastery
 
 ## Screenshots
 #### Home
