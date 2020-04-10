@@ -25,10 +25,20 @@ export const MenuItemContainer = styled.div`
 		}
 	}
 
+	&:first-child {
+    margin-right: 7.5px;
+  }
+
+  &:last-child {
+    margin-left: 7.5px;
+  }
+
   @media screen and (max-width: 800px) {
     height: 200px;
   }
 `;
+
+MenuItemContainer.displayName = 'MenuItemContainer';
 
 export const BackgroundImageContainer = styled.div`
   width: 100%;
@@ -37,6 +47,8 @@ export const BackgroundImageContainer = styled.div`
   background-position: center;
   background-image: ${({ imageUrl }) => `url(${imageUrl})`};
 `;
+
+BackgroundImageContainer.displayName = 'BackgroundImageContainer';
 
 export const ContentContainer = styled.div`
   height: 90px;
